@@ -29,9 +29,9 @@ Springboot приложение со справочником работнико
 ---
 * поднять базу данных MySQL
 * запустить скрипты для создания user и заполнения базы данных employees-CRUD-app\init_scripts_for_database.sql
-* настройки доступа к базе данных в файле src\main\resources\application.properties
+* если будет необходимо изменить user или название базы: настройки доступа к базе данных в файле src\main\resources\application.properties
 * запуск приложения mvn spring-boot:run
 * URL: http://localhost:8080/employees
-* создано два юзера:
+* для авторизации используйте users:
   * login: admin, password: admin
   * login: manager, password: manager
